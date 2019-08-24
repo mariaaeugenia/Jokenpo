@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Jokenpo</string>
+    <string name="you">YOU</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="start_game">Start Game</string>
+    <string name="name">name...</string>
+    <string name="exit">Exit</string>
+    <string name="about">About</string>
+    <string name="new_game">New Game</string>
+</resources>
