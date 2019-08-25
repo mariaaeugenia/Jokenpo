@@ -3,6 +3,7 @@ package com.meteixeira.jokenpo
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.meteixeira.jokenpo.ui.GameMainActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showPlayerFragment() {
-        val nextScreen = Intent(this, PlayerActivity::class.java)
+        val nextScreen = Intent(this, GameMainActivity::class.java)
         startActivity(nextScreen)
     }
 
